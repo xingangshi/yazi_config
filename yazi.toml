@@ -1,7 +1,9 @@
 [manager]
+ratio = [1, 3, 4] # default [1, 4, 3]，3 列，总计 8 份。
 show_hidden = true
 linemode = "size_and_mtime"
 show_symlink = true
+mouse_events = ["click", "scroll", "touch"]
 
 
 [[plugin]]
