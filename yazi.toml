@@ -9,11 +9,16 @@ mouse_events = ["click", "scroll", "touch"]
 [[plugin]]
 previewers = [
   { name = "*/", run = "folder", sync = true },
-  { name = "*.md", run = "preview" },
-  { name = "*.csv", run = "preview" },
+  # { name = "*.md", run = "preview" },
+  # { name = "*.csv", run = "preview" },
   { mime = "text/*", run = "code" },
   { mime = "*/xml", run = "code" },
   { mime = "*/javascript", run = "code" },
   { mime = "*/x-wine-extension-ini", run = "code" },
   { name = "*", run = "preview" },
+]
+
+prepend_previewers = [
+    { name = "*.csv", exec = "bat" },
+    { name = "*.md", exec = "bat" }
 ]

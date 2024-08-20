@@ -1,0 +1,6 @@
+[submodule "/Users/vincent/.config/yazi/plugins/bat.yazi"]
+	path = /Users/vincent/.config/yazi/plugins/bat.yazi
+	url = https://github.com/mgumz/yazi-plugin-bat.git
+[submodule "plugins/preview.yazi"]
+	path = plugins/preview.yazi
+	url = https://github.com/Urie96/preview.yazi.git
