@@ -1,0 +1,11 @@
+[manager]
+    prepend_keymap = [
+{on = [ "g", "d" ], run  = "cd ~/Downloads", desc = "Cd to ~/Downloads" },
+    ]
+
+    append_keymap = [
+{on = [ "g", "s" ], run  = "cd ~/synologyDrive", desc = "Cd to ~/synologyDrive" },
+{on = [ "g", "p" ], run = 'cd ~/Pictures', desc = "Cd to ~/Pictures" },
+]
+
+
