@@ -7,8 +7,9 @@ prepend_keymap = [
 ]
 
 append_keymap = [
-    { on = [ "g", "s" ], run = "cd ~/synologyDrive", desc = "Cd to ~/synologyDrive" },
-    { on = [ "g", "e" ], run = "cd ~/self",          desc = "Cd to ~/self" },
+    { on = [ "g", "s" ], run = "cd ~/synologyDrive",      desc = "Cd to ~/synologyDrive" },
+    { on = [ "g", "e" ], run = "cd ~/self",               desc = "Cd to ~/self" },
+    { on = [ "g", "n" ], run = "cd ~/self/healthyCommon", desc = "Cd to ~/self/healthyCommon" },
 ]
 
 keymap = [
